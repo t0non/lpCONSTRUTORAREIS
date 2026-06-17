@@ -6,4 +6,4 @@ Allow: /assets/img/
 Disallow: /scratch/
 Disallow: /tmp/
 
-Sitemap: https://www.construtorareis.com.br/sitemap.xml
+Sitemap: https://www.construtorareismg.com.br/sitemap.xml
