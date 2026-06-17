@@ -1531,6 +1531,7 @@ ul { list-style: none; }
   align-items: center;
   gap: 12px;
   font-size: 0.82rem;
+  flex-wrap: wrap;
 }
 
 .footer-bottom-links a {
@@ -2010,6 +2011,28 @@ ul { list-style: none; }
   }
   .footer-links-col ul { align-items: center; }
   .footer-social { justify-content: center; }
+  
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+  
+  .footer-bottom-links {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .footer-bottom-links span {
+    display: none; /* Ocultar os pontos separadores em coluna */
+  }
+  
+  .crea-info, .dev-info {
+    display: block;
+    margin-top: 4px;
+  }
 
   /* === CARDS DIFF / TRUST === */
   .diff-card, .trust-item {
