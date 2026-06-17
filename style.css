@@ -1543,6 +1543,29 @@ ul { list-style: none; }
 
 .footer-bottom-links span { color: rgba(255, 255, 255, 0.15); }
 
+/* Assinatura Top Marketing */
+.dev-info {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dev-info a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--gold) !important;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dev-info img {
+  height: 20px;
+  width: auto;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
 /* ——— ANIMATIONS ——— */
 .animate-fade-up {
   opacity: 0;
@@ -2029,8 +2052,15 @@ ul { list-style: none; }
     display: none; /* Ocultar os pontos separadores em coluna */
   }
   
-  .crea-info, .dev-info {
+  .crea-info {
     display: block;
+    margin-top: 4px;
+  }
+  
+  .dev-info {
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
     margin-top: 4px;
   }
 
